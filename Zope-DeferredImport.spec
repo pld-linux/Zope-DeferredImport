@@ -1,18 +1,20 @@
-Summary:	zope.deferredimport package used in Zope 3
+Summary:	Deferr Python module import
 Name:		Zope-DeferredImport
 Version:	3.4.0
-Release:	0.1
-License:	ZPL 2.0
-Group:		Development/Tools
+Release:	1
+License:	ZPL 2.1
+Group:		Libraries/Python
 Source0:	http://download.zope.org/distribution/zope.deferredimport-%{version}.tar.gz
 # Source0-md5:	fb1929c582c470fe1bfe90f0568f7b20
 BuildRequires:	python
 BuildRequires:	python-devel
 %pyrequires_eq	python-modules
+Requires:	Zope-Proxy
+Requires:	Zope-Testing
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-zope.deferredimport package used in Zope 3.
+Deferr Python module import.
 
 %prep
 %setup -q -n zope.deferredimport-%{version}
