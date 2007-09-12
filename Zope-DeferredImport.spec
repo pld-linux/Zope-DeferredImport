@@ -6,6 +6,7 @@ License:	ZPL 2.1
 Group:		Libraries/Python
 Source0:	http://download.zope.org/distribution/zope.deferredimport-%{version}.tar.gz
 # Source0-md5:	fb1929c582c470fe1bfe90f0568f7b20
+URL:		http://www.zope.org/
 BuildRequires:	python
 BuildRequires:	python-devel
 %pyrequires_eq	python-modules
