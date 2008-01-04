@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{py_sitescriptdir}/zope/deferredimport
-%{py_sitescriptdir}/zope*egg*
-%{py_sitescriptdir}/zope*pth
+%{py_sitescriptdir}/zope.deferredimport-*.egg-info
+%{py_sitescriptdir}/zope.deferredimport-*-nspkg.pth
