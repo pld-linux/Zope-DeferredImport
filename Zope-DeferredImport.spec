@@ -5,8 +5,8 @@ Version:	3.4.0
 Release:	4
 License:	ZPL 2.1
 Group:		Libraries/Python
-Source0:	http://download.zope.org/distribution/zope.deferredimport-%{version}.tar.gz
-# Source0-md5:	fb1929c582c470fe1bfe90f0568f7b20
+Source0:	http://pypi.python.org/packages/source/z/zope.deferredimport/zope.deferredimport-%{version}.tar.gz
+# Source0-md5:	d24825ffd6dd75bdb5098dbccfa82d53
 URL:		http://www.zope.org/
 BuildRequires:	python >= 1:2.5
 BuildRequires:	python-devel >= 1:2.5
